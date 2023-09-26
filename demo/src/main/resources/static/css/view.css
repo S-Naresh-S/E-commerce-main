@@ -1,0 +1,38 @@
+h2{
+    text-align: center;
+}
+#data, #details{
+    text-align: center;
+    color: green;
+}
+#mail, #pass, #id, #incorrect{
+    color: red;
+    font-size: 30px;}
+#del{
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+}
+.recover{
+    font-size: 30px;
+    color: green;
+    text-align: center;
+}
+#share{
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+}
+#log{
+    font-size: 25px;
+    color: green;
+    text-align: center;
+}
+#welcome{
+    font-size: 50px;
+    text-align: center;
+}
+#page{
+    text-align: center;
+    color: blue;
+}

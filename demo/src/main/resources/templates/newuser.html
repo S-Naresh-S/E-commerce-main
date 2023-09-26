@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="css/user.css">
+</head>
+<body>
+<div id="main">
+    <h1 id="welcome">WELCOME!!!</h1>
+    <h2>E-commerce Register as a New User</h2>
+<form id="new" action="newuse" method="post">
+    <input class="inp" type="text" name="name" placeholder="Name" min="1"  required>
+    <input class="inp" type="email" name="email" placeholder="Email" required>
+    <input class="inp" type="password" name="password" placeholder="Password" required>
+    <input class="inp" type="password" name="cpassword" placeholder="Confirm Password" required>
+    <input class="inp sub" type="submit" value="Register">
+    <input class="inp sub" type="reset">
+</form>
+
+    <h2>Users Registered With us</h2>
+    <form action="usersdetail" method="post">
+        <input class="inp sub" type="submit" value="View">
+    </form>
+
+<h2>View Your Account Details</h2>
+<form action="display" method="post">
+    <input class="inp" type="number" name="id" placeholder="ID" min="1"  required>
+    <input class="inp" type="password" name="password" placeholder="Password" required>
+    <input class="inp sub" type="submit">
+    <input class="inp sub" type="reset">
+</form>
+<h2>Delete Your Account</h2>
+<form action="delete" method="post">
+    <input class="inp" type="number" name="id" placeholder="ID" min="1"  required>
+    <input class="inp" type="password" name="password" placeholder="Password" required>
+    <input class="inp sub" type="submit">
+    <input class="inp sub" type="reset" >
+</form>
+</div>
+
+</body>
+</html>

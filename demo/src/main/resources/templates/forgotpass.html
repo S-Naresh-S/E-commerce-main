@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Forgot password</title>
+    <link rel="stylesheet" href="css/user.css">
+</head>
+<body>
+    <div id="main">
+        <h1 id="welcome">WELCOME!!!</h1>
+        <h2>Forgot Password</h2>
+        <form action="forgotpassword" method="post">
+            <input class="inp" type="number" name="id" placeholder="ID" min="1"  required>
+            <input class="inp" type="email" name="email" placeholder="Email" required>
+            <input class="inp sub" type="submit">
+            <input class="inp sub" type="reset">
+        </form>
+        <h2>Forgot User ID</h2>
+        <form action="forgot" method="post">
+            <input class="inp" type="email" name="email" placeholder="Email" required>
+            <input class="inp" type="password" name="password" placeholder="password" required>
+            <input class="inp sub" type="submit">
+            <input class="inp sub" type="reset">
+        </form>
+    </div>
+</body>
+</html>
